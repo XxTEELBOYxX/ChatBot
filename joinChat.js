@@ -7,7 +7,7 @@ const client = new Mixer.Client();
 
 // With OAuth we don't need to log in. The OAuth Provider will attach
 // the required information to all of our requests after this call.
-client.use(new Mixer.OAuthProvider(client, {645cc311b536161213a92af4b30dcbbe1f1e5b55ad50a442
+client.use(new Mixer.OAuthProvider(client, {"645cc311b536161213a92af4b30dcbbe1f1e5b55ad50a442"
     tokens: 
         access: '7nGzbtliB5UfdSQslilmG3PtA4G5AsOBFgaVwtCkPFGe4Zmvi2kcyIYJ68aLaIK1',
         expires: Date.now() + (365 * 24 * 60 * 60 * 1000)
